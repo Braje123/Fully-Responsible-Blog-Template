@@ -1,0 +1,49 @@
+.post-img{
+    height: 405px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.post-img img{
+    width: 100%;
+    opacity: 80%;
+}
+.blog-post-content{
+    background-color: rgb(246, 245, 245);
+    border-radius: 10px;
+}
+.blog-post-content h1{
+    text-align: center;
+    font-style: initial;
+}
+.blog-post-content p{
+    padding: 0px 13px;
+    font-style: italic;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+}
+.more-post{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.blogpost-meta{
+    display: flex;
+    /* background-color: blanchedalmond; */
+    justify-content: space-between;
+}
+
+.Author-info{
+    margin: 10px 0px;
+}
+.Author-info div{
+    /* padding: 4px 12px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.social img{
+    height: 80px;
+    width: 150px;
+    margin-right: 20px;
+    cursor: pointer;
+}
